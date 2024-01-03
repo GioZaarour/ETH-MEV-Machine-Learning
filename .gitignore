@@ -1,2 +1,8 @@
-Data/block_data_flashbots_dashboard.csv
+Data/block_data_flashbots_dashboard_q1.csv
+Data/block_data_flashbots_dashboard_q4.csv
 Data/transactions_data_api.csv
+Data/block_data_ready.csv
+Data/sandwiches.csv
+Data/sandwiched_swaps.csv
+Data/liquidations.csv
+Data/arbitrages.csv
