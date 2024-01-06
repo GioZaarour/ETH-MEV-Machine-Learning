@@ -46,7 +46,8 @@ network_demand                        0.012891
 sandwiched_swaps_count                0.008363
 base_fee_change_percentage            0.007530
 validator_is_registered_with_relay   -0.007486
-is_fb_builder                        -0.007606```
+is_fb_builder                        -0.007606
+```
 
 I found that certain hours of the day experience higher MEV rewards, likely due to netwark demand and chain activity. 
 
