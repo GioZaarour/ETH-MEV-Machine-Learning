@@ -1,8 +1,8 @@
-## Modelling Ethereum MEV
+# Modelling Ethereum MEV
 
 This project utilizes machine learning to model realized Maximal-Extractable-Value (MEV) rewards in the proof-of-stake Ethereum blockchain, utilizing exogenous network variables. 
 
-# Data Extraction & Feature Engineering
+## Data Extraction & Feature Engineering
 
 The data extraction notebook retrieves the most recent Flashbots block data from their [MEV blocks API](https://docs.flashbots.net/flashbots-data/blockapi). 
 
@@ -14,7 +14,7 @@ We define **realized extractable value** as the difference between the block pro
 
 The feature engineering notebook cleans unnecessary data and creates new derived and aggregated predictors from the previous data. 
 
-# Models Used
+## Models Used
 
 I tested various models including the following:
 
@@ -30,7 +30,7 @@ In previous MEV studies I looked at, ensemble gradient boosting methods did the 
 
 Another side note is that I expect the accuracy scores and error rates would be much better if outlier blocks (those with extremely high MEV rewards) were removed from the training data. These instances are one-time pure-profit opportunities, and deviate from any sort of predictable pattern. See analysis notes below. 
 
-# Data Analysis
+## Data Analysis
 
 Correlations with realized MEV are as follows:
 
